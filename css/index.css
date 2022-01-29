@@ -10,12 +10,12 @@ text-align: center;
 font-size: 50;
 overflow-x: hidden;
 max-width: 100%;
+
 }
 
 .Main-page{
     position: relative;
     overflow-x: hidden;
-
     height: 100vh;
     width:100vw;
     background-position: center;
@@ -69,7 +69,7 @@ max-width: 100%;
     position:absolute;
     width:100vw;
     height: 100vh;
-    background-color: #2f2f2f;
+    background-color: #000000;
     z-index:10;
     top:0;
     left:-4300px;
@@ -80,11 +80,7 @@ max-width: 100%;
     position:relative;
     flex-wrap: wrap;
 }
-.navigation{
-    position:absolute;
-    left:25%;
-    margin-top:150px;
-}
+
 nav li{
     list-style: none;
     padding:5px;
@@ -178,11 +174,7 @@ nav a:hover{
     width:150px;
     height:70px;
 }
-.information{
-    position:absolute;
-    margin-top:150px;
-    left:60%;
-}
+
 .information span{
     color: #fe6f27;
     font-weight: bold;
@@ -646,5 +638,28 @@ a, a:hover {
     .card-4 img{
         width:85px;
         height:65px;
+    }
+}
+.contain-menu-content{
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 30%;
+    left:20%;
+}
+.information{
+    margin-left:80px;
+}
+@media only screen and (max-width:850px)
+{
+
+    .information{
+        margin-top:60px;
+        margin-left:0px;
+    }
+    .navigation{
+        border:none;
+        padding-bottom:70px;
+        border-bottom:1px solid grey;
     }
 }

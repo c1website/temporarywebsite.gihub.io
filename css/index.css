@@ -625,7 +625,7 @@ a, a:hover {
 @media only screen and (max-width:800px)
 {
     .card-page{
-        height:300vh;
+        height:280vh;
     }
 }
 @media only screen and (max-width:325px)
@@ -670,4 +670,82 @@ a, a:hover {
         padding-bottom:55px;
         border-bottom:1px solid grey;
     }
+}
+.footer{
+    border-top:1px solid grey;
+    width:100vw;
+    height:70vh;
+    background-color: #000;
+}
+.contain-footer{
+    display:flex;
+    flex-wrap: wrap;
+    width:70%;
+    margin:auto;
+    margin-top:50px;
+    text-align: left;
+}
+.contain-footer h1{
+    color:#b3401a;
+    margin-bottom:15px;
+}
+.logo-footer{
+    margin:10px 50px 30px 50px;
+}
+.logo-footer img{
+    width:120px;
+    height:100px;
+}
+.quick-links{
+    margin:10px 50px 10px 50px;
+    
+}
+.information-footer{
+    margin:10px 50px 10px 50px;
+
+}
+.contain-footer li{ 
+    padding:5px;
+    padding-bottom:10px;
+    transition: all 0.5s;
+}
+.contain-footer a{
+    color:grey;
+}
+.contain-footer li:hover{
+    text-decoration: underline;
+    color:#8b2e00
+}
+.information-footer span{
+    color:#fe6f277c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:700px)
+{
+    .footer{
+        height:100vh;
+    }
+}
+@media only screen and (max-width:500px)
+{
+   .contain-footer{
+    width:80%;
+    margin-left:auto;
+   }
+}
+.information-footer p{
+    color:grey;
+    margin-bottom:25px;
+}
+.footer p{
+    color:grey;
+
+}
+.copy-right{
+    border-top:1px solid rgb(82, 82, 82);
+    padding-top:40px;
+    font-size: 15px;
+
 }

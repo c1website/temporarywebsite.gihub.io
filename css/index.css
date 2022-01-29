@@ -69,7 +69,7 @@ max-width: 100%;
     position:absolute;
     width:100vw;
     height: 100vh;
-    background-color: #000000;
+    background-color: #051a1d;
     z-index:10;
     top:0;
     left:-4300px;
@@ -649,17 +649,25 @@ a, a:hover {
 }
 .information{
     margin-left:80px;
+    margin-right:80px;
 }
-@media only screen and (max-width:850px)
-{
+.navigation{
+    text-align: left;
+}
 
+@media only screen and (max-width:924px)
+{
+    .contain-menu-content{
+        top:22%;
+        left:15%;
+    }
     .information{
-        margin-top:60px;
+        margin-top:45px;
         margin-left:0px;
     }
     .navigation{
         border:none;
-        padding-bottom:70px;
+        padding-bottom:55px;
         border-bottom:1px solid grey;
     }
 }

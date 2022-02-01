@@ -27,11 +27,12 @@ svg{
 }
 .page-text{
     position: absolute;
-    top:55%;
+    top:50%;
     left:25%;
     transform: translate(-50%,-50%);
     color:rgb(22, 51, 51);
-    font-size: 150%;
+    font-size: 350%;
+
 }
 .logo {
     position:absolute;
@@ -52,7 +53,7 @@ svg{
     }
 }
 
-@media only screen and (max-width:600px)
+@media only screen and (max-width:650px)
 {
     svg{
         top:32%;
@@ -411,6 +412,76 @@ nav a:hover{
 }
 .card-page{
     width:100vw;
-    height:100vh;
-    background-color: black;
+    height:200vh;
+    background-color: #000000;
+}
+.card-start-text h1{
+    color:  rgb(22, 92, 92);
+    font-size: 40px;
+    font-weight: bold;
+    padding-top:40px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+.card{
+    width:300px;
+    height:400px;
+    border:1px double rgb(119, 119, 119);
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.card img{
+    width:160px;
+    height:140px;
+}
+.card h1{
+    font-family: sans-serif;
+    color: white;
+    
+}
+.card-information{
+    max-width: 70%;
+    margin:auto;
+}
+.card-information p{
+    color:#b6b6b6;
+    margin-top: 10px;
+}
+.nav-btn{
+    padding:5px;
+    color:white;
+    width:40%;
+    height: 30px;
+    margin:auto;
+    margin-top: 8%;
+    padding-top:14px;
+    border:1px solid grey;
+    border-radius: 2px;
+    color:#fff;
+    transition: all 0.5s;
+}
+.nav-btn:hover {
+    color:#fe6f27;
+    border:1px solid #fe6f27;
+
+}
+.card-4 img{
+    width:140px;
+    height:100px;
+    margin-top:20px;
+    margin-bottom:25px;
+}
+.card a{
+    font-weight: bolder;
 }

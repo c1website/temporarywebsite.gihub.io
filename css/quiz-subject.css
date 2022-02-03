@@ -454,53 +454,32 @@ nav a:hover{
     margin-bottom:12px;
 }
 .card img{
-    width:160px;
-    height:140px;
+    margin-top: 20px;
+     width:250px;
+    height:250px; 
+    /*width:200px;
+    height:200px; */
 }
 .card h1{
     font-family: sans-serif;
     color:rgb(33, 85, 85);
-    
+    text-align: left;
+    font-size: 25px;
 }
 .card-information{
-    max-width: 70%;
+    max-width: 80%;
     margin:auto;
 }
 .card-information p{
     color:#88898a;
     margin-top: 10px;
+    text-align: left;
 }
-.nav-btn{
-    padding:5px;
-    color:white;
-    width:40%;
-    height: 30px;
-    margin:auto;
-    margin-top: 8%;
-    padding-top:14px;
-    border:1px solid rgb(122, 122, 122);
-    border-radius: 2px;
-    color:rgb(11, 51, 51);
-    transition: all 0.5s;
-}
-.nav-btn:hover {
-    color:rgb(219, 248, 248);
-    border:1px solid rgb(68, 95, 95);
-    background-color: cadetblue;
-}
-.card-4 img{
-    width:130px;
-    height:100px;
-    margin-top:20px;
-    margin-bottom:25px;
-}
-.card-3 img{
-    width:230px;
-    height:170px;
-}
-.card-3 h1{
-    margin-top:-30px;
-}
+
+
+
+
+
 .card a{
     font-weight: bolder;
 }

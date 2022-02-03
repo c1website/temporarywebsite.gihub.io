@@ -8,14 +8,16 @@ body {
     font-size: 50;
     overflow-x: hidden;
     max-width: 100%;
-    background-color: black;
+    background-color: #f7fcfc;
+
 }
 .header{
     position:relative;
     width:100vw;
     height:100vh;
-    border-bottom:1px solid grey;
-    background-color: rgb(36, 199, 172);
+    background-image: url(../images/quiz-page-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 
 svg{
@@ -110,12 +112,12 @@ svg{
     z-index: 8;   
     top:30px;
     left:30px; 
-    border: 2px double white;
+    border: 2px double rgb(22, 51, 51);
     transition: all 0.5s;
 }
 .menu:hover{
-    box-shadow: 0 0 10px #fe6f27;
-    border: 2px double #fe6f27ca;
+    box-shadow: 0 0 10px rgb(22, 51, 51);
+    border: 2px double rgb(22, 51, 51);
 
 }
 .bars .line-1,
@@ -125,26 +127,26 @@ svg{
     width:20px;
     height:3px;
     margin:4px;
-    background-color:white;
+    background-color:rgb(22, 51, 51);
     transition: all 0.5s;
 
 }
 .bars :hover{
-    box-shadow: 0 0 10px #fe6f27;
-    background-color:#fe6f27;
+    box-shadow: 0 0 10px rgb(22, 51, 51);
+    background-color:rgb(22, 51, 51);
 
 }
 
 .menu-text{
-    color: white;
+    color: rgb(22, 51, 51);
     font-weight: bolder;
     font-size: 15px;
     padding:4px;
     transition:all 0.5s;
 }
 .menu-text:hover{
-    text-shadow: 0 0 10px #fe6f27;
-    background-color: #fe6f27;
+    text-shadow: 0 0 10px rgb(22, 51, 51);
+    background-color: rgb(151, 214, 214);
 
 }
 .menu-page{
@@ -213,20 +215,19 @@ nav li a{
 }
 .cross-1:hover,
 .cross-2:hover{
-    box-shadow: 0 0 10px #fe6f27;
+    box-shadow: 0 0 10px rgb(22, 51, 51);
 
 }
 .cross-text:hover{
-    text-shadow: 0 0 10px #fe6f27;
-    background-color: #fe6f27;
+    text-shadow: 0 0 10px rgb(22, 51, 51);
+    background-color: rgb(178, 241, 241);
 }
 .cross-button{
     transition: all 0.5s;
 
 }
 .cross-button:hover{
-    box-shadow: 0 0 10px #fe6f27;
-    border:2px double #fe6f27;
+    box-shadow: 0 0 10px rgb(22, 51, 51);
 }
 .menu:hover{
     cursor: pointer;
@@ -243,8 +244,9 @@ nav a{
 
 }
 nav a:hover{
-    text-shadow: 0 0 10px #fe6f27;
-    color:#fe6f27;
+    text-shadow: 0 0 10px rgb(22, 51, 51);
+    color:rgb(166, 226, 226);
+    text-decoration:underline;
 }
 .logo {
     position:absolute;
@@ -258,7 +260,7 @@ nav a:hover{
 }
 
 .information span{
-    color: #fe6f27;
+    color: rgb(158, 233, 233);
     font-weight: bold;
 }
 .information h1{
@@ -309,10 +311,12 @@ nav a:hover{
   }
   .social ul li:hover a {
     color: #000;
+    text-shadow: 0 0 5px #051a1d;
+    text-decoration: none;;
   }
   .social ul li:hover i {
     color: #fff;
-    background: #fe6f27;
+    background: #051a1d;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -377,7 +381,7 @@ nav a:hover{
   
   .socialbtns .fa:hover {
       color: #FFF;
-      background-color: #fe6f27;
+      background-color: #051a1d;
   }
   .contain-menu-content{
     position:absolute;
@@ -412,8 +416,15 @@ nav a:hover{
 }
 .card-page{
     width:100vw;
-    height:200vh;
-    background-color: #000000;
+    height:160vh;
+    background-color: #f7fcfc;
+}
+
+@media only screen and (max-width:805px)
+{
+    .card-page{
+        height: 240vh;
+    }
 }
 .card-start-text h1{
     color:  rgb(22, 92, 92);
@@ -435,7 +446,8 @@ nav a:hover{
 .card{
     width:300px;
     height:400px;
-    border:1px double rgb(119, 119, 119);
+    border:1px double rgb(184, 184, 184);
+    background-color: #ffffffce;
     margin-right:10px;
     margin-left:10px;
     margin-top:12px;
@@ -447,7 +459,7 @@ nav a:hover{
 }
 .card h1{
     font-family: sans-serif;
-    color: white;
+    color:rgb(33, 85, 85);
     
 }
 .card-information{
@@ -455,7 +467,7 @@ nav a:hover{
     margin:auto;
 }
 .card-information p{
-    color:#b6b6b6;
+    color:#88898a;
     margin-top: 10px;
 }
 .nav-btn{
@@ -466,22 +478,110 @@ nav a:hover{
     margin:auto;
     margin-top: 8%;
     padding-top:14px;
-    border:1px solid grey;
+    border:1px solid rgb(122, 122, 122);
     border-radius: 2px;
-    color:#fff;
+    color:rgb(11, 51, 51);
     transition: all 0.5s;
 }
 .nav-btn:hover {
-    color:#fe6f27;
-    border:1px solid #fe6f27;
-
+    color:rgb(219, 248, 248);
+    border:1px solid rgb(68, 95, 95);
+    background-color: cadetblue;
 }
 .card-4 img{
-    width:140px;
+    width:130px;
     height:100px;
     margin-top:20px;
     margin-bottom:25px;
 }
+.card-3 img{
+    width:230px;
+    height:170px;
+}
+.card-3 h1{
+    margin-top:-30px;
+}
 .card a{
     font-weight: bolder;
+}
+.footer{
+    width:100vw;
+    height:100vh;
+    background-image: url(../images/qiz-footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top:300px;
+}
+
+.contain-footer{
+    display:flex;
+    flex-wrap: wrap;
+    width:70%;
+    margin:auto;
+    margin-top:50px;
+    text-align: left;
+    margin-bottom:40px;
+}
+.contain-footer h1{
+    color: rgb(22, 92, 92);
+    margin-bottom:15px;
+}
+.logo-footer{
+    margin:10px 50px 30px 50px;
+}
+.logo-footer img{
+    width:120px;
+    height:100px;
+}
+.quick-links{
+    margin:10px 50px 10px 50px;
+    
+}
+.information-footer{
+    margin:10px 50px 10px 50px;
+
+}
+.contain-footer li{ 
+    padding:5px;
+    padding-bottom:10px;
+    transition: all 0.5s;
+}
+.contain-footer a{
+    color: rgb(0, 58, 58);
+}
+.contain-footer li:hover{
+    text-decoration: underline;
+    color:#8b2e00;
+}
+.information-footer span{
+    color:#0432477c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width:500px)
+{
+   .contain-footer{
+    width:80%;
+    margin-left:auto;
+   }
+   .copy-right{
+
+    font-size: 10px;
+    }
+
+}
+.information-footer p{
+    color: rgb(0, 58, 58);
+    margin-bottom:25px;
+}
+.footer p{
+    color: rgb(0, 58, 58);
+
+}
+.copy-right{
+    border-top:1px solid rgb(82, 82, 82);
+    padding-top:40px;
+    font-size: 15px;
 }

@@ -453,6 +453,7 @@ nav a:hover{
     margin-left:10px;
     margin-top:12px;
     margin-bottom:12px;
+    transition: all 0.75s;
 }
 .card img{
     margin-top: 20px;
@@ -607,4 +608,13 @@ nav a:hover{
 .close-subject h4{
     margin-top: 13px;
     color: rgba(51, 51, 51, 0.842);
+}
+.chapter-card-1
+.chapter-card-2
+.chapter-card-3
+.chapter-card-4
+.chapter-card-5
+.chapter-card-6
+{
+    transform:none;
 }
